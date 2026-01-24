@@ -1,0 +1,12 @@
+@theme {
+  --color-dev-blue: #043694;
+  --color-dev-green: #59B948;
+
+  /* Simplified Animation for v4 */
+  --animate-scroll: scroll 40s linear infinite;
+
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); } /* We move half the width of the double-list */
+  }
+}
