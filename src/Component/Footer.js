@@ -66,7 +66,7 @@ const Footer = () => {
               <li className="flex gap-4">
                 <LuMapPin className="text-dev-green text-2xl flex-shrink-0" />
                 <span className="text-gray-300 text-sm leading-relaxed">
-                  Dev Center Hub, <br /> Eket, Akwa Ibom State, Nigeria.
+               43B Enen ekpene Road <br /> Eket, Akwa Ibom State, Nigeria.
                 </span>
               </li>
               <li className="flex items-center gap-4">
@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-4">
                 <LuMail className="text-dev-green text-xl flex-shrink-0" />
-                <span className="text-gray-300 text-sm">hello@devupglobal.org</span>
+                <span className="text-gray-300 text-sm">devup@advantacatalyst.org</span>
               </li>
             </ul>
           </div>
