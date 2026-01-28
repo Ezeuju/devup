@@ -76,7 +76,7 @@ const OurExpress = () => {
         <div className="max-w-7xl mx-auto relative z-10">
           <p className="text-dev-green font-black uppercase tracking-[0.4em] text-xs mb-4">Our Ecosystem</p>
           <h1 className="text-5xl md:text-8xl font-black mb-8 leading-none">
-            The Seven <br />
+            Our <br />
             <span className="text-dev-green italic">Expressions</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl font-medium leading-relaxed">

@@ -8,6 +8,8 @@ import OurExpress from './Component/OurExpress';
 import Gallery from './Component/Gallery';
 import Register from './Component/Register';
 import Contact from './Component/Contact';
+import BlazeSports from './Component/Blaze';
+import Csig from './Component/Csig';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
         <Route path='/gallery' element={<Gallery/>}/>
         <Route path='/register' element={<Register/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/blazesports' element={<BlazeSports/>}/>
+        <Route path='/csig' element={<Csig/>}/>
         
        
 

@@ -44,6 +44,7 @@ const Footer = () => {
               <li><a href="#expressions" className="hover:text-dev-green transition-colors">Our Expressions</a></li>
               <li><a href="#events" className="hover:text-dev-green transition-colors">Upcoming Events</a></li>
               <li><a href="#partners" className="hover:text-dev-green transition-colors">Partnerships</a></li>
+              <li><a href="#partners" className="hover:text-dev-green transition-colors">RN: 7817441</a></li>
             </ul>
           </div>
 
@@ -71,7 +72,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-4">
                 <LuPhone className="text-dev-green text-xl flex-shrink-0" />
-                <span className="text-gray-300 text-sm font-bold">+234 (0) 123 456 7890</span>
+                <span className="text-gray-300 text-sm font-bold">+1 (321) 437 2745</span>
               </li>
               <li className="flex items-center gap-4">
                 <LuMail className="text-dev-green text-xl flex-shrink-0" />

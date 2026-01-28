@@ -1,4 +1,6 @@
 import React from 'react';
+import project445 from "../images/project445.jpeg";
+
 import { 
   LuGlobe, 
   LuUsers, 
@@ -40,27 +42,46 @@ const Stats = () => {
     <section className="py-20 bg-dev-blue text-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         
-        {/* Main Project 40k Highlight */}
-        <div className="bg-white/10 backdrop-blur-md rounded-[3rem] p-8 md:p-12 mb-16 border border-white/20 relative overflow-hidden group">
-          <div className="absolute top-0 right-0 p-10 opacity-10 group-hover:opacity-20 transition-opacity">
-            <LuFlame className="text-9xl text-dev-green" />
-          </div>
-          
-          <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
-            <div className="text-center md:text-left">
-             
-              <p className="text-2xl md:text-3xl font-bold uppercase tracking-tighter">Project</p>
-               <h2 className="text-dev-green text-5xl md:text-7xl font-black mb-2">40,000</h2>
-                 <p className="text-2xl md:text-3xl font-bold uppercase tracking-tighter">Inspired</p>
-              <div className="flex items-center justify-center md:justify-start gap-2 mt-4 text-dev-green">
-                <LuCircleCheck className="text-xl" />
-                <span className="font-medium">Our Strategic Goal for 2024-2026</span>
+        {/* Main Project 40k Highlight with Image */}
+        <div className="bg-white/10 backdrop-blur-md rounded-[3rem] overflow-hidden mb-16 border border-white/20 relative group">
+          <div className="flex flex-col lg:flex-row items-stretch">
+            
+            {/* Left Side: Image with Overlay */}
+            <div className="lg:w-2/5 relative h-64 lg:h-auto overflow-hidden">
+              <img 
+                src={project445} 
+                alt="Project 40,000" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-dev-blue/30 group-hover:bg-transparent transition-colors duration-500"></div>
+              {/* Floating Badge on Image */}
+              <div className="absolute bottom-4 left-4 bg-dev-green text-white text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">
+                2024 - 2026 Goal
               </div>
             </div>
-            <div className="h-px w-full md:h-24 md:w-px bg-white/20"></div>
-            <p className="max-w-md text-gray-300 text-center md:text-left leading-relaxed">
-              An ambitious journey to ignite purpose and transform the lives of forty thousand young Africans through our integrated development platforms.
-            </p>
+
+            {/* Right Side: Content */}
+            <div className="lg:w-3/5 p-8 md:p-12 relative flex flex-col justify-center">
+              <div className="absolute top-0 right-0 p-10 opacity-10 group-hover:opacity-20 transition-opacity hidden md:block">
+                <LuFlame className="text-9xl text-dev-green" />
+              </div>
+              
+              <div className="relative z-10">
+                <p className="text-xl md:text-2xl font-bold uppercase tracking-tighter opacity-80">Project</p>
+                <h2 className="text-dev-green text-6xl md:text-8xl font-black mb-2 leading-none">40,000</h2>
+                <p className="text-xl md:text-2xl font-bold uppercase tracking-tighter mb-6">Inspired</p>
+                
+                <p className="max-w-md text-gray-200 text-lg leading-relaxed mb-8">
+                  An ambitious journey to ignite purpose and transform the lives of forty thousand young Africans through our integrated development platforms.
+                </p>
+
+                <div className="flex items-center gap-3 text-dev-green bg-dev-green/10 w-fit px-4 py-2 rounded-xl border border-dev-green/20">
+                  <LuCircleCheck className="text-xl animate-pulse" />
+                  <span className="font-black text-xs uppercase tracking-widest">Active Strategic Mission</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
